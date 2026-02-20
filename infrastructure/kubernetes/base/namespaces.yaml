@@ -1,0 +1,22 @@
+# Artisan Platform — Kubernetes Namespaces
+# Applied in Step 11
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: artisan-apps
+  labels:
+    app.kubernetes.io/part-of: artisan-platform
+---
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: artisan-infra
+  labels:
+    app.kubernetes.io/part-of: artisan-platform
+---
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: artisan-obs
+  labels:
+    app.kubernetes.io/part-of: artisan-platform

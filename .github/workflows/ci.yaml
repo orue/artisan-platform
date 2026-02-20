@@ -1,0 +1,10 @@
+# Artisan Platform — GitHub Actions: ci
+# Implemented in Step 13 (CI) / Step 16 (CD)
+name: ci
+"on":
+  workflow_dispatch: {}
+jobs:
+  placeholder:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Placeholder — implemented in a later step"

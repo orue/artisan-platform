@@ -1,0 +1,4 @@
+# Copy to terraform.tfvars and fill in values
+# NEVER commit terraform.tfvars — it's in .gitignore
+environment = "prod"
+aws_region  = "us-east-1"
