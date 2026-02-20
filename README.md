@@ -36,7 +36,7 @@
 
 ```bash
 # Clone and set up
-git clone https://github.com/<your-username>/artisan-platform.git
+git clone https://github.com/orue/artisan-platform.git
 cd artisan-platform
 make init
 
